@@ -63,5 +63,5 @@ void main() {
 
   diffuse.rgb = colorCorrection(diffuse.rgb);
 
-  gl_FragColor = white;
+  gl_FragColor = diffuse;
 }
